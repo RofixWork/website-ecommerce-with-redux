@@ -54,7 +54,7 @@ const Cart = () => {
           <Typography variant="h5">Your Cart</Typography>
         </Box>
         <Grid container spacing={2}>
-          <Grid item xl={9} lg={9} xs={12}>
+          <Grid item md={9} lg={9} xs={12}>
             <TableContainer component={Paper}>
               <Table className={classes.table} aria-label="simple table">
                 <TableHead>
@@ -120,7 +120,7 @@ const Cart = () => {
               </Table>
             </TableContainer>
           </Grid>
-          <Grid item xl={3} lg={3} xs={12}>
+          <Grid item md={3} lg={3} xs={12}>
             <Box className={classes.head}>
               <Typography variant="h6">Summary</Typography>
             </Box>
