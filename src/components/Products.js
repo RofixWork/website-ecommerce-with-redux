@@ -112,7 +112,7 @@ const Products = () => {
             filteredProducts.map((pr) => {
               const { id, title, img, discountPrice } = pr;
               return (
-                <Grid item xs={12} sm={6} md={4} lg={3} key={id}>
+                <Grid item xs={12} sm={6} md={3} lg={3} key={id}>
                   <Link to={`details/${id}`}>
                     <Box className={classes.content}>
                       <Box className={classes.imgHeader}>
